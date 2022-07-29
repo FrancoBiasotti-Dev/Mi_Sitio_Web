@@ -5,8 +5,81 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Contacto - Cabañas Franco | Las Chacras, Cordoba</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500&family=Open+Sans:ital,wght@0,500;1,300;1,400&family=Raleway:wght@300;500&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.2/css/all.min.css" integrity="sha512-1sCRPdkRXhBV2PBLUdRb4tMg1w2YPf37qatUFeS7zlBy7jJI8Lf4VHwWfZZfpXtYSLy85pkm9GaYVYMfw5BC1A==" crossorigin="anonymous" referrerpolicy="no-referrer">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/contacto.css">
 </head>
 <body>
-    
+    <header>
+        <div class="topbar">
+            <img src="/assets/images/topbar.webp" alt="imagen topbar">
+        </div>
+        <nav class="menu">
+            <ul type="none">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="cabanas.html">Cabañas</a></li>
+                <li><a href="servicios.html">Servicios</a></li>
+                <li><a href="galeria.html">Galería</a></li>
+                <li><a href="las-chacras.html">Las Chacras</a></li>
+                <li><a href="contacto.html">Contacto</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <h1>Contacto</h1>
+        <hr>
+        <div>
+            <div class="ubicanos">
+                <h2>Ubicanos</h2>
+                <p>Calle pública S/N (a 300 metros de la plaza)</p>
+                <p>Las Chacras Sur, Córdoba, Argentina</p>
+                <p>Teléfono: <strong>+5491123456789</strong></p>
+                <p>Email: cabanasfranco@gmail.com</p>
+            </div>
+            <div class="contactanos">
+                <h2>Contactanos</h2>
+                <form action="" class="form">
+                <div>
+                    <label for="name">Nombre</label>
+                    <input id="name" type="text">
+                </div>
+                <div>
+                    <label for="email">Email</label>
+                    <input id="email" type="email">
+                </div>
+                <div>
+                    <label for="phone">Teléfono</label>
+                    <input id="phone" type="tel">
+                </div>
+                <div>
+                    <label for="passengers">Pasajeros</label>
+                    <input id="passengers" type="number">
+                </div>
+                <div>
+                    <label for="message">Mensaje</label>
+                    <textarea name="message" id="message" cols="45" rows="5"></textarea>
+                </div>
+                <div>
+                    <label for="submit"></label>
+                    <input id="submit" type="submit" value="Enviar">
+                </div>
+                </form>
+            </div>
+        </div>
+    </main>
+    <footer>
+        <div class="footer1">
+            <p>Calle pública S/N (a 300 metros de la plaza)</p>
+            <p>Las Chacras Sur, Córdoba, Argentina</p>
+            <p>Teléfono: <strong>+5491123456789</strong></p> <!--El numero seria un link a Whatsapp-->
+            <p>Email: cabanasfranco@gmail.com</p>
+        </div>
+        <div class="copyright">
+            <span>Copyright Cabañas Franco 2022. Desarrollo Web: <a href="mailto:francobiasottidev@gmail.com">francobiasottidev@gmail.com</a></span>
+        </div>
+    </footer>
 </body>
 </html>
