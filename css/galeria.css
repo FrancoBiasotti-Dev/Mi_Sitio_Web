@@ -3,16 +3,16 @@ body{
 }
 
 header{
-    background: #5a17;
+    background: hsla(93, 40%, 60%, 1);
     margin: 0;
-}
-
-.topbar{
-    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 header div{
     margin: 0;
+    height: 50px;
 }
 
 header div img{
@@ -46,6 +46,10 @@ nav ul li a:hover, nav ul li a:active{
 }
 
 /* Aca abajo el main */
+
+main{
+    padding-top: 100px;
+}
 
 h1{
     margin-bottom: 0;

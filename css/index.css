@@ -1,18 +1,30 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-weight: Light, 300; Regular, 400; Medium, 500;
+
+font-family: 'Open Sans', sans-serif;
+font-weight: Light, 300, Italic; Regular, 400, Italic; Medium, 500;
+
+font-family: 'Raleway', sans-serif;
+font-weight: Light, 300; Medium, 500;
+
+*/
+
 body{
     background: #e0f1d7;
 }
 
 header{
-    background: #5a17;
+    background: hsla(93, 40%, 60%, 1);
     margin: 0;
-}
-
-.topbar{
-    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 header div{
     margin: 0;
+    height: 50px;
 }
 
 header div img{
@@ -28,7 +40,8 @@ nav ul{
     padding: 0;
     display: flex;
     justify-content: center;
-
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
 nav ul li{
@@ -42,6 +55,12 @@ nav ul li a{
 
 nav ul li a:hover, nav ul li a:active{
     color: #991A08;
+}
+
+/* Aca abajo el main */
+
+main{
+    padding-top: 100px;
 }
 
 .construccion{

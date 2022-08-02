@@ -1,18 +1,30 @@
+/*
+font-family: 'Montserrat', sans-serif;
+font-weight: Light, 300; Regular, 400; Medium, 500;
+
+font-family: 'Open Sans', sans-serif;
+font-weight: Light, 300, Italic; Regular, 400, Italic; Medium, 500;
+
+font-family: 'Raleway', sans-serif;
+font-weight: Light, 300; Medium, 500;
+
+*/
+
 body{
     background: #e0f1d7;
 }
 
 header{
-    background: #5a17;
+    background: hsla(93, 40%, 60%, 1);
     margin: 0;
-}
-
-.topbar{
-    height: 50px;
+    position: fixed;
+    top: 0;
+    width: 100%;
 }
 
 header div{
     margin: 0;
+    height: 50px;
 }
 
 header div img{
@@ -28,7 +40,8 @@ nav ul{
     padding: 0;
     display: flex;
     justify-content: center;
-
+    font-family: 'Raleway', sans-serif;
+    font-weight: 500;
 }
 
 nav ul li{
@@ -46,9 +59,48 @@ nav ul li a:hover, nav ul li a:active{
 
 /* Aca abajo el main */
 
-.construccion{
-    padding-top: 20%;
+main{
+    padding-top: 100px;
 }
+
+h1{
+    margin-bottom: 0;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 500;
+    font-style: italic;
+    text-align: center;
+    color: #FF6600;
+    font-size: 2rem;
+}
+
+img{
+    width: 150px;
+    height: 150px;
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+main>div{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    padding: 30px 10px 30px;
+}
+
+img+p{
+    text-align: center;
+}
+
+h2{
+    text-align: center;
+}
+
+h2+p{
+    text-align: center;
+    padding-left: 1rem;
+    padding-right: 1rem;
+}
+
 
 /* Aca abajo el footer general */
 
